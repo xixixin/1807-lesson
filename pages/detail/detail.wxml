@@ -1,0 +1,11 @@
+<!--通过include引入wxml 包括样式直接引入进来 -->
+<include src="../index/index.wxml"/>
+<!--通过import引入模板-->
+<import src="../template/template.wxml" />
+<view class=''>
+  <!-- is对应的是你定义的模板的name -->
+   <!-- 用拓展运算符传值可以有效地预防数据不一致的风险 -->
+  <template is="list-item" data="{{...singleData}}">
+
+  </template>
+</view>

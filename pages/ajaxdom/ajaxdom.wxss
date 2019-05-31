@@ -1,0 +1,5 @@
+/* pages/ajaxdom/ajaxdom.wxss */
+input{
+  border:1px solid pink;
+  
+}

@@ -1,0 +1,17 @@
+<!--pages/list/list.wxml-->
+<!--列表渲染-->
+<!--view  盒子容器-->
+<!-- wx:key 静态遍历不需要 -->
+<view wx:for="{{list}}" wx:key="*this">
+    {{item}}
+    <!-- z针对循环自动每一项都赋值叫做item 可以通过wx:for-item="a" 改变item -->
+</view>
+<!--显示隐藏-->
+<text>{{msg}}</text>
+<text wx:if="{{flag}}">
+    显示内容{{msg}}  v-if
+</text>
+<text hidden="{{flag}}">
+    显示hidden得内容 v-show
+</text>
+<text>{{true?'显示true':'显示false'}}</text>

@@ -1,0 +1,6 @@
+/* pages/atrlist/artlist.wxss */
+.star{
+  width: 36rpx;
+  height: 36rpx;
+  display: inline-block;
+}

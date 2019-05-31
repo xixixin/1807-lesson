@@ -1,0 +1,17 @@
+<!--pages/event/event.wxml-->
+<!-- 轮播图组件 -->
+<swiper>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode='scaleToFill'/>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 小程序是单项数据流 修改数据必须通过thid.setData -->
+<view class="">
+    <text wx:if="{{flag}}">通过点击事件实现显示隐藏</text>
+    <button bindtap="showflag">
+        我是按钮
+    </button>
+</view>
+

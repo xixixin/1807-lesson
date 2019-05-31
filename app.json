@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/note/note",
+    "pages/add/add",
+    "pages/atrlist/artlist",
+    "pages/detail/detail",
+    "pages/animate/animate",
+    "pages/index/index",
+    "pages/backuautio/backuautio",
+    "pages/game/game",
+    "pages/ajaxdom/ajaxdom",
+    "pages/event/event",
+    "pages/list/list",
+    "pages/logs/logs"
+  ],
+  "requiredBackgroundModes": ["audio"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "",
+    "selectedColor": "pink",
+    "backgroundColor": "",
+    "position": "top",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icons/about.png",
+        "selectedIconPath": "images/icons/about-selected.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表",
+        "iconPath": "images/icons/about.png",
+        "selectedIconPath": "images/icons/about-selected.png"
+      }
+    ]
+  }
+}

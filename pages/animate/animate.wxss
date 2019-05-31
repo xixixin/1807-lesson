@@ -1,0 +1,9 @@
+/* pages/animate/animate.wxss */
+.animatebox{
+  position: relative;
+  width: 100rpx;
+  height: 100rpx;
+  background: pink;
+  top:30rpx;
+  left: 60rpx;
+}
